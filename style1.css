@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #dee7f0;
+  background-image: linear-gradient(62deg, #d3e2f1 0%, #e9e0f1 100%);
+}
+.container {
+  overflow-x: none;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  background-color: yellow;
+  /* box-shadow: 0px 0px 5px black; */
+  background: rgb(229, 239, 239);
+}
+
+.heading h1 {
+  text-align: center;
+  /* margin: 10px 0px; */
+  font-size: 30px;
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  top: 15px;
+  margin-bottom: 30px;
+}
+
+.heading p {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.contents {
+  margin: 50px 2px;
+  /* background-color: blue; */
+  display: flex;
+  
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+}
+/* .otherinfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.things {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 20%;
+
+  /* background-color: red; */
+  padding: 1px;
+  /* border: 1px solid black; */
+  box-shadow: 0px 0px 10px rgb(145, 138, 138);
+  border-radius: 5px;
+}
+.things #fullimage {
+  height: 150px;
+  width: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.things #logo {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+}
+.things h2 {
+  margin: 10px 0px;
+  font-size: 17px;
+  text-align: center;
+}
+.things #about {
+  font-size: 14px;
+  font-weight: 50;
+  margin-bottom: 20px;
+  text-align: center;
+ 
+}
+
+#information #btn{
+
+/* background-color: blueviolet; */
+float: right;
+}
+
+#information {
+  /* display: flex; */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: auto;
+  /* background-color: aqua; */
+  justify-content: space-around;
+  text-align: center;
+  padding: 5px;
+}
+#others{
+  display: flex;
+  padding: 5px;
+
+}
+#namedate{
+  margin: 0px 5px;
+}
+#namedate h3{
+  font-size: 14px;
+}
+#namedate p{
+  font-size: 9px;
+}
+#information button{
+  border: 0px 0px 5px rgb(233, 199, 199);
+  border-radius: 2px;
+}
+#information button:hover{
+  background-color: rgb(208, 232, 232);
+  /* opacity: ; */
+  border: 0px 0px 5px rgb(241, 213, 213);
+}
+
